@@ -78,7 +78,7 @@ document.addEventListener("keydown", function(evento){
 		if(errores == 6){
 			perdiste.style.display = "block";
 			ganaste.style.display = "none";
-			document.removeEventListener("keydown", function(), true);
+			document.removeEventListener("keydown", true);
 			
 		}else{
 			 if(letra.match(/^[a-zñ]$/i) && !adivinar.includes(letra) && !usadas.includes(letra)){
