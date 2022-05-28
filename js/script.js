@@ -52,8 +52,8 @@ btnNuevo.addEventListener("click", function(){
 	   var seleccionada = (palabras[indicePalabra]).toUpperCase();
 	   var guiones = seleccionada.length;
 	   adivinar = seleccionada;
-	   parrafo.innerHTML = " ";
-	   letrasIngresadas.innerHTML= " ";
+	   parrafo.innerHTML = "";
+	   letrasIngresadas.innerHTML= "";
 	   usadas = [];
 	   errores = 0;
 	   aciertos = 1;
