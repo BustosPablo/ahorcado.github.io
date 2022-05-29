@@ -118,7 +118,7 @@ btnGuardar.addEventListener("click", function(){
 
 	if (!palabras.includes(nuevaPalabra)){
 		palabras.push(nuevaPalabra);
-		ingreso.value = " ";
+		ingreso.value = "";
 	}else{ 
 		return 
 	}
