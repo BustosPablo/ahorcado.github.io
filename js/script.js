@@ -50,7 +50,7 @@ btnNuevo.addEventListener("click", function(){
 	   var indicePalabra = Math.floor(Math.random() * cantidad_palabras);
 	   var seleccionada = (palabras[indicePalabra]).toUpperCase();
 	   var guiones = seleccionada.length;
-	   document.addEventListener("keyup", teclado);
+	   document.addEventListener("keydown", teclado);
 	   adivinar = seleccionada;
 	   parrafo.innerHTML = " ";
 	   letrasIngresadas.innerHTML= " ";
