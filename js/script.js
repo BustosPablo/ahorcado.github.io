@@ -78,9 +78,9 @@ const teclado = evento => {
 				for (var i = 0; i<adivinar.length; i++){
 		 			if (letra == adivinar[i]){
 						letrasMostrar[i].innerHTML = letra;
-						aciertos++;
 	 				}			 	
-    			}
+    				}
+				aciertos++;
 			}
 
 		if(letra.match(/^[a-zñ]$/i) && !adivinar.includes(letra) && !usadas.includes(letra)){	
