@@ -96,12 +96,12 @@ const teclado = evento => {
 
 		if(errores == 6){
 			perdiste.style.display = "block";
-			ganaste.style.display = "none";
-			document.removeEventListener("keydown", teclado);	
+			document.removeEventListener("keydown", teclado);
 		}
 
 		if(aciertos == adivinar.length){
 			ganaste.style.display = "block";
+			document.removeEventListener("keydown", teclado);
 		}
 }
 
