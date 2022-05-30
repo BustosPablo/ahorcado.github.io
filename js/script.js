@@ -102,7 +102,6 @@ const teclado = evento => {
 
 		if(aciertos == adivinar.length){
 			ganaste.style.display = "block";
-			//perdiste.style.display = "none";
 		}
 }
 
